@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.xbot.ui.mixin.client",
+  "package": "com.xbot.ui.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "FreshUIMixin"
   ],
   "injectors": {
     "defaultRequire": 1

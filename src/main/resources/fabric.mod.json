@@ -11,10 +11,16 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.xbot.ui.client.FreshUIClient"
+      {
+        "adapter": "kotlin",
+        "value": "com.xbot.ui.client.FreshUIClient"
+      }
     ],
     "main": [
-      "com.xbot.ui.FreshUI"
+      {
+        "adapter": "kotlin",
+        "value": "com.xbot.ui.FreshUIKt::init"
+      }
     ]
   },
   "mixins": [
